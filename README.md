@@ -3,7 +3,9 @@
 A real DNS server that you can send LLM queries to and get AI responses back through DNS TXT records!
 
 Inspired by: https://x.com/levelsio/status/1952861177731793324
+
 dig @ch.at "what is golang" TXT +short
+
 dig@llm.pieter.com -p 9000 "what is the meaning of life" TXT +short
 
 ## Limitations
